@@ -35,13 +35,12 @@ const RESOURCES = {
 "assets/packages/flutter_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
 "assets/packages/flutter_icons/fonts/weathericons.ttf": "4618f0de2a818e7ad3fe880e0b74d04a",
 "assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "316bd84f20ed8a11d1a9744efd814504",
-"/": "316bd84f20ed8a11d1a9744efd814504",
+"favicon.png": "8e2c44ba45609353d0c0cc994991270b",
+"icons/icon.png": "8e2c44ba45609353d0c0cc994991270b",
+"index.html": "15186fc87aeb6abafa140cb2f4da4248",
+"/": "15186fc87aeb6abafa140cb2f4da4248",
 "main.dart.js": "6930490baa71fe6aac35f4525c43a227",
-"manifest.json": "b3eeb2058c56aa0a5aa8a6d579290876",
+"manifest.json": "efb21ac5cef3d01059d7104bad82322a",
 "version.json": "a4d0c17d9bab62cc052f2c3051c9991a"
 };
 
