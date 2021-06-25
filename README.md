@@ -1,1 +1,0 @@
-### Production Repo for [kry021/ghosted](https://github.com/kry021/ghosted)
