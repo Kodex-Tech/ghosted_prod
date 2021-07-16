@@ -12,8 +12,8 @@ const RESOURCES = {
 "assets/assets/svg/friends.svg": "b5eb2f7d6b3f8cc9b60be4a5dcf28015",
 "assets/assets/svg/nitro.svg": "5a4ac7879fb43bc2509169b8fac68a4a",
 "assets/FontManifest.json": "7aaf3996738086bbd796613e14ef9e45",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "225caafee3d59f1a2b2f812170b93c2b",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "ec80397d19f83a800f9b40b75448fd23",
 "assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
 "assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
 "assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
@@ -42,9 +42,9 @@ const RESOURCES = {
 "assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
 "favicon.png": "8e2c44ba45609353d0c0cc994991270b",
 "icons/icon.png": "8e2c44ba45609353d0c0cc994991270b",
-"index.html": "3a099e5301ee80e333f0a30b56dff72c",
-"/": "3a099e5301ee80e333f0a30b56dff72c",
-"main.dart.js": "68c3eafd04110e7241c8bbc9a92cade3",
+"index.html": "82c951328b25094bebd76eb2d4b1878c",
+"/": "82c951328b25094bebd76eb2d4b1878c",
+"main.dart.js": "dac95d7397776fd57595230af54c0506",
 "manifest.json": "efb21ac5cef3d01059d7104bad82322a",
 "version.json": "a4d0c17d9bab62cc052f2c3051c9991a"
 };
@@ -64,7 +64,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
