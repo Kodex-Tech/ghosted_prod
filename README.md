@@ -6,3 +6,6 @@ These are the static files built from the [ghosted_frontend](https://github.com/
 
 **For Example:**
 `https://ghosted-api.herokuapp.com` -> `http://localhost:2500`
+
+## Links
+- [API Repository](https://github.com/Kodex-Tech/ghosted_api)
